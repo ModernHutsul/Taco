@@ -3255,9 +3255,19 @@ body.menu-is-open {
     counter-reset: ctr;
 }
 
-.s-header__nav-links li {
+.s-header__nav-links li{
     padding-left: 0;
+}
+.s-header__nav-links-Index{
+    border-bottom  : 1px solid rgba(255, 255, 255, 0.05);
     border-top  : 1px solid rgba(255, 255, 255, 0.05);
+}
+.s-header__nav-links-Menu{
+    border-bottom  : 1px solid rgba(255, 255, 255, 0.05);
+    border-top  : 1px solid rgba(255, 255, 255, 0.05);
+}
+.s-header__nav-links-Login{
+    border-top : 0;
 }
 
 .s-header__nav-links li:last-child {
