@@ -93,6 +93,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Cormorant+SC:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Mali:wght@400;700&display=swap');
 
+@font-face {
+    font-family: 'Mexicana'; /* Назва шрифту, яку ви будете використовувати */
+    src: url('/fonts/Mexicana.ttf') format('truetype'); /* Вказуємо формат 'truetype' для TTF файлів */
+    font-weight: normal; /* Жирність шрифту (normal, bold) */
+    font-style: normal;  /* Стиль шрифту (normal, italic) */
+}
+
 :root {
     --font-1: "Newsreader", Serif;
     --font-2: "Cormorant Garamond", Serif;
@@ -1005,6 +1012,7 @@ img,
 video {
     max-width: 100%;
     height   : auto;
+
 }
 
 pre {
@@ -1755,6 +1763,7 @@ fieldset,
 button,
 .btn {
     margin-bottom: var(--vspace-0_5);
+    border-radius: 15px;
 }
 
 input,
@@ -1976,6 +1985,8 @@ select {
     transition         : all 0.3s ease-in-out;
 }
 
+
+
 .ss-custom-select {
     position: relative;
     padding : 0;
@@ -2032,7 +2043,7 @@ input[type=url]:focus,
 input[type=password]:focus,
 textarea:focus,
 select:focus {
-    color        : var(--color-text);
+    color        : var(--color-2-dark);
     border-bottom: 1px solid var(--color-1);
 }
 
@@ -2148,6 +2159,29 @@ input[type=button]:hover {
     outline         : 0;
 }
 
+.btn.btn--signup,
+button.btn--signup,
+input[type=submit].btn--signup,
+input[type=reset].btn--signup,
+input[type=button].btn--signup {
+    background: transparent;
+    border-color: var(--color-2-darkest);
+    color: var(--color-btn-primary-text);
+}
+.btn.btn--signup:focus,
+button.btn--signup:focus,
+input[type=submit].btn--signup:focus,
+input[type=reset].btn--signup:focus,
+input[type=button].btn--signup:focus,
+.btn.btn--signup:hover,
+button.btn--signup:hover,
+input[type=submit].btn--signup:hover,
+input[type=reset].btn--signup:hover,
+input[type=button].btn--signup:hover {
+    background  : var(--color-btn-primary-hover);
+    border-color: var(--color-btn-primary-hover);
+    color       : var(--color-btn-primary-hover-text);
+}
 /* button primary
  */
 .btn.btn--primary,
@@ -2155,8 +2189,8 @@ button.btn--primary,
 input[type=submit].btn--primary,
 input[type=reset].btn--primary,
 input[type=button].btn--primary {
-    background  : var(--color-btn-primary);
-    border-color: var(--color-btn-primary);
+    background  : var(--color-2-darkest);
+    border-color: var(--color-2-darkest);
     color       : var(--color-btn-primary-text);
 }
 
@@ -3022,7 +3056,7 @@ body.menu-is-open {
  * ------------------------------------------------------------------- */
 .s-header {
     --header-height : 72px;
-    --logo-width    : 15rem;
+    --logo-width    : 30rem;
     background-color: transparent;
     height          : var(--header-height);
     width           : 100%;
@@ -3044,7 +3078,6 @@ body.menu-is-open {
  * ## logo
  * -------------------------------------------------------------------- */
 .s-header__logo {
-    width: 100rem;
     z-index : 3;
     position: relative;
 }
@@ -3059,8 +3092,8 @@ body.menu-is-open {
 
 .s-header__logo img {
     width         : var(--logo-width);
-    margin        : 0;
     vertical-align: top;
+    margin-top: 150px;
 }
 
 /* --------------------------------------------------------------------
@@ -3147,9 +3180,11 @@ body.menu-is-open {
 }
 
 .s-header__cta-btn {
+    position: relative;
     margin : 0;
     padding: 0 2.4rem;
 }
+
 
 /* --------------------------------------------------------------------
  * ## off canvas menu
@@ -3182,8 +3217,10 @@ body.menu-is-open {
 }
 
 .s-header__nav-bottom {
+    font-family: Algerian;
     margin-top: auto;
 }
+
 
 /* navigation menu 
  */
@@ -3200,6 +3237,7 @@ body.menu-is-open {
 }
 
 .s-header__nav h6 {
+    font-family: Algerian;
     font-size    : calc(var(--text-size) * 0.5833);
     margin-top   : 0;
     margin-bottom: var(--vspace-0_25);
@@ -3210,8 +3248,8 @@ body.menu-is-open {
     list-style   : none;
     margin-top   : var(--vspace-2);
     margin-left  : 0;
-    margin-bottom: var(--vspace-3);
-    font-family  : var(--font-2);
+    /*margin-bottom: var(--vspace-3);*/
+    font-family  : Mexicana;
     font-size    : var(--text-lg);
     line-height  : 1;
     counter-reset: ctr;
@@ -3224,6 +3262,7 @@ body.menu-is-open {
 
 .s-header__nav-links li:last-child {
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: clamp(140px, 5vw, 200px);
 }
 
 .s-header__nav-links li a {
@@ -3237,18 +3276,7 @@ body.menu-is-open {
     color: var(--color-1);
 }
 
-.s-header__nav-links a::before {
-    display          : block;
-    content          : counter(ctr, decimal-leading-zero) ".";
-    counter-increment: ctr;
-    font-family      : var(--font-3);
-    font-weight      : 500;
-    font-size        : 0.35em;
-    color            : rgba(255, 255, 255, 0.25);
-    transition       : all 0.5s;
-    margin-bottom    : 0.15em;
-    position         : relative;
-}
+
 
 /*  navigation menu logo
  */
@@ -3269,7 +3297,6 @@ body.menu-is-open {
 /*  navigation menu booking number
  */
 .s-header__booking-no {
-    font-family: var(--font-3);
     font-size  : var(--text-md);
 }
 
@@ -3388,7 +3415,7 @@ body.menu-is-open {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
     .s-header {
         --logo-width: 11rem;
         top         : var(--vspace-0_25);
@@ -3422,7 +3449,7 @@ body.menu-is-open {
     position           : relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: normal;
     align-items: center;
     min-height: 100vh; /* Висота контейнера на весь екран */
 }
@@ -3433,13 +3460,13 @@ body.menu-is-open {
 }
 
 .s-pageheader .page-title {
-    font-family  : 'Mali', sans-serif;
-    font-size    : clamp(var(--text-xxxl), 10vw, var(--text-huge-1));
+    font-family  : 'Mexicana', sans-serif;
+    font-size    : clamp(var(--text-xxxl)*2, 10vw, var(--text-huge-1)*1.8);
     line-height  : 1.0387;
-    color        : var(--color-white);
+    color        : var(--color-gray-10);
     font-weight  : 200;
-    margin-top   : 0;
-    margin-bottom: 0;
+    margin-top   : 150px;
+    margin-bottom: 40px;
     padding-top  : var(--vspace-0_5);
     position     : relative;
 }
@@ -4857,7 +4884,7 @@ body.menu-is-open {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Зробити контейнер висотою на весь екран */
+    min-height: 20vh;
     padding: 12px; /* Додати трохи відступів */
 }
 /* ------------------------------------------------------------------- 
