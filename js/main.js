@@ -43,6 +43,7 @@
         const closeButton = document.querySelector('.s-header__nav-close-btn');
         const siteBody    = document.querySelector('body');
 
+
         if (!(menuToggle && nav)) return;
 
         menuToggle.addEventListener('click', function(e) {
@@ -66,7 +67,7 @@
             }
         });
 
-    }; // end ssOffcanvas   
+    }; // end ssOffcanvas
 
 
    /* glightbox

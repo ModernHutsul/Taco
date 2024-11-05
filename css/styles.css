@@ -3216,11 +3216,57 @@ body.menu-is-open {
     left                      : 0;
 }
 
+.s-header__nav_menu {
+    --nav-logo-width: 12rem;
+    --nav-text-color: var(--color-gray-16);
+    --box-shadow    : 4px 0 4px rgba(0, 0, 0, 0.05),
+    8px 0 8px rgba(0, 0, 0, 0.05),
+    16px 0 16px rgba(0, 0, 0, 0.05),
+    32px 0 32px rgba(0, 0, 0, 0.05);
+    z-index                   : 301;
+    display                   : flex;
+    flex-direction            : column;
+    background                : #121212;
+    color                     : var(--nav-text-color);
+    font-family               : var(--font-2);
+    padding                   : var(--vspace-1_25) var(--vspace-1_25);
+    height                    : 100vh;
+    width                     : min(96%, 42rem);
+    box-shadow                : var(--box-shadow);
+    transform                 : translateX(-100%);
+    overflow-y                : auto;
+    transition-property       : transform;
+    transition-duration       : 0.4s;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    position                  : fixed;
+    top                       : 0;
+    left                      : 0;
+}
+
 .s-header__nav-bottom {
     font-family: Algerian;
     margin-top: auto;
 }
 
+.s-header__nav_menu a,
+.s-header__nav_menu .text-highlight {
+    color: var(--color-1);
+}
+
+.s-header__nav_menu a:focus,
+.s-header__nav_menu a:hover,
+.s-header__nav_menu .text-highlight:focus,
+.s-header__nav_menu .text-highlight:hover {
+    color: white;
+}
+
+.s-header__nav_menu h6 {
+    font-family: Algerian;
+    font-size    : calc(var(--text-size) * 0.5833);
+    margin-top   : 0;
+    margin-bottom: var(--vspace-0_25);
+    color        : var(--nav-text-color);
+}
 
 /* navigation menu 
  */
@@ -3268,11 +3314,11 @@ body.menu-is-open {
 }
 .s-header__nav-links-Login{
     border-top : 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .s-header__nav-links li:last-child {
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    margin-top: clamp(140px, 5vw, 200px);
 }
 
 .s-header__nav-links li a {
