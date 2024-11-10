@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4956e67-4bde-48c8-90a7-2fe945ed5438" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/css/test.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
+    <list default="true" id="c4956e67-4bde-48c8-90a7-2fe945ed5438" name="Changes" comment="Update testing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu_testing.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu_testing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,12 @@
       <workItem from="1730310420292" duration="12388000" />
       <workItem from="1730621856574" duration="9776000" />
       <workItem from="1730685369925" duration="2202000" />
-      <workItem from="1730837005136" duration="1287000" />
+      <workItem from="1730837005136" duration="5227000" />
+      <workItem from="1730927959840" duration="8222000" />
+      <workItem from="1731002171521" duration="10518000" />
+      <workItem from="1731060220620" duration="1471000" />
+      <workItem from="1731176307368" duration="8802000" />
+      <workItem from="1731250091753" duration="930000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -132,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730058195825</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update testing">
+      <option name="closed" value="true" />
+      <created>1730838357029</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730838357029</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update testing">
+      <option name="closed" value="true" />
+      <created>1730838364695</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730838364695</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +160,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Update testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update testing" />
   </component>
 </project>
