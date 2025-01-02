@@ -4,89 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4956e67-4bde-48c8-90a7-2fe945ed5438" name="Changes" comment="Update 12345">
-      <change afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
+    <list default="true" id="c4956e67-4bde-48c8-90a7-2fe945ed5438" name="Changes" comment="Final 50/50">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/test.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/generic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about/about-img-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about/about-img-01@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about/about-img-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about/about-img-02@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about/about-img-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about/about-img-03@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/avatars/user-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/avatars/user-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/avatars/user-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/avatars/user-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/avatars/user-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/avatars/user-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/avatars/user-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/avatars/user-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-01@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-02@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-03@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-04@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-05@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-06@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-07@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-08@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/home-about-img-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/home-about-img-small@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/home-about-img.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/home-about-img@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/intro-bg-3000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/Rectangle 25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/icecream.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/icecream@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/pasta.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/pasta@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/steak.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/steak@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/taco-svgrepo-com 1.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/toast.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/toast@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/yogurt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu/yogurt@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pageheader/pageheader-about-bg-3000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pageheader/pageheader-generic-bg-3000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pageheader/pageheader-menu-bg-3000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pageheader/pageheader-reservations-bg-3000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sample-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sidebar/HomeSideBar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sidebar/HomeSideBar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/wheel-1000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/wheel-2000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/wheel-500.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu_testing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reservations.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +140,7 @@
       <workItem from="1735241036688" duration="2069000" />
       <workItem from="1735254202485" duration="1852000" />
       <workItem from="1735660367342" duration="5868000" />
-      <workItem from="1735820001285" duration="360000" />
+      <workItem from="1735820001285" duration="760000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -278,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731251889038</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Final 50/50">
+      <option name="closed" value="true" />
+      <created>1735820424023</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1735820424023</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +216,7 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Update testing" />
     <MESSAGE value="Update 12345" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update 12345" />
+    <MESSAGE value="Final 50/50" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final 50/50" />
   </component>
 </project>

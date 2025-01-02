@@ -23,11 +23,11 @@ slidePanelTacosButton.addEventListener('click', function(){
     body.classList.remove('basket-is-open');
 });
 
-slidePanelCustomTacosButton.addEventListener('click', function(){
-    menuPanels.forEach(i => i.classList.remove('menu-open'));
-    customTacosMenuPanel.classList.add('menu-open');
-    body.classList.remove('basket-is-open');
-});
+// slidePanelCustomTacosButton.addEventListener('click', function(){
+//     menuPanels.forEach(i => i.classList.remove('menu-open'));
+//     customTacosMenuPanel.classList.add('menu-open');
+//     body.classList.remove('basket-is-open');
+// });
 slidePanelSoftDrinksButton.addEventListener('click', function(){
     menuPanels.forEach(i => i.classList.remove('menu-open'));
     softDrinksMenuPanel.classList.add('menu-open');
