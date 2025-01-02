@@ -1,95 +1,6 @@
 @charset "UTF-8";
 
-/* =================================================================== 
- * Maillard Main Stylesheet
- * Template Ver. 1.0.0
- * 08-03-2023
- * ------------------------------------------------------------------
- *
- * TOC:
- * # SETTINGS
- *      ## fonts 
- *      ## colors
- *      ## spacing and typescale
- *      ## grid variables
- * # CSS RESET
- * # GRID
- *      ## extra large devices
- *      ## large device
- *      ## medium devices
- *      ## tablet devices
- *      ## mobile devices
- *      ## small mobile devices
- *      ## additional column stackpoints 
- * # BASE SETUP
- * # UTILITY CLASSES
- * # TYPOGRAPHY 
- *      ## base type styles
- *      ## additional typography & helper classes
- *      ## lists
- *      ## media 
- *      ## spacing
- * # PRELOADER
- *      ## page loaded
- * # FORM
- *      ## style placeholder text
- *      ## change autocomplete styles in Chrome
- * # BUTTONS
- * # TABLE
- * # COMPONENTS
- *      ## pagination 
- *      ## alert box 
- *      ## skillbars 
- *      ## stats tabs
- * # PROJECT-WIDE SHARED STYLES
- *      ## section header
- *      ## social list
- *      ## swiper overrides
- *      ## glightbox overrides
- * # GRID-BASED LAYOUTS
- *      ## grid block
- *      ## list grid
- * # PAGE WRAP
- * # SITE HEADER
- *      ## logo
- *      ## mobile menu toggle
- *      ## CTA Button
- *      ## off canvas menu
- * # PAGEHEADER & PAGECONTENT
- * # INTRO
- *      ## intro bg
- *      ## intro content
- *      ## intro scroll down
- *      ## home intro transitions
- * # ABOUT
- *      ## about content header
- *      ## about content main
- * # MENU BLOCK
- *      ## menublock slider
- * # TESTIMONIALS
- * # GALLERY
- *      ## gallery items
- * # FOOTER
- *      ## copyright
- *      ## go top
- * # PAGE STYLES 
- *      ## content block
- *      ## menu block
- *      ## cta block
- *      ## reservation form
- *
- * ------------------------------------------------------------------ */
 
-
-/* ===================================================================
- * # SETTINGS
- *
- *
- * ------------------------------------------------------------------- */
-
-/* ------------------------------------------------------------------- 
- * ## fonts 
- * ------------------------------------------------------------------- */
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Cormorant+SC:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Mali:wght@400;700&display=swap');
 
@@ -116,16 +27,11 @@
  * ------------------------------------------------------------------- */
 :root {
 
-  /* color-1(#C73E1D)
-   * color-2(#D1C1B3)
-   * color-3(#595968)
-   */
+
     --color-1                     : hsla(12, 75%, 45%, 1);
     --color-2                     : hsla(28, 25%, 76%, 1);
     --color-3                     : hsla(240, 8%, 38%, 1);
 
-  /* theme color variations
-   */
     --color-1-lightest            : hsla(12, 75%, 75%, 1);
     --color-1-lighter             : hsla(12, 75%, 65%, 1);
     --color-1-light               : hsla(12, 75%, 55%, 1);
@@ -144,10 +50,6 @@
     --color-3-dark                : hsla(240, 8%, 28%, 1);
     --color-3-darker              : hsla(240, 8%, 10%, 1);
 
-  /* feedback colors
-   * color-error(#ffd1d2), color-success(#c8e675), 
-   * color-info(#d7ecfb), color-notice(#fff099)
-   */
     --color-error                 : hsla(359, 100%, 91%, 1);
     --color-success               : hsla(76, 69%, 68%, 1);
     --color-info                  : hsla(205, 82%, 91%, 1);
@@ -157,11 +59,6 @@
     --color-info-content          : hsla(205, 32%, 31%, 1);
     --color-notice-content        : hsla(51, 30%, 30%, 1);
 
-  /* neutrals
-   * generated using 
-   * Tint & Shade Generator 
-   * (https://maketintsandshades.com/)
-   */
     --color-black                 : #000000;
     --color-gray-19               : #151312;
     --color-gray-18               : #2a2724;
@@ -183,19 +80,16 @@
     --color-gray-2                : #f6f3f0;
     --color-gray-1                : #faf9f7;
     --color-white                 : #ffffff;
-    /* text
-   */
+
     --color-text                  : var(--color-gray-19);
     --color-text-dark             : var(--color-black);
     --color-text-light            : var(--color-gray-15);
     --color-placeholder           : var(--color-gray-12);
-    /* link
-   */
+
     --color-link                  : var(--color-1);
     --color-link-hover            : var(--color-1-darker);
     --color-link-active           : var(--color-1-darker);
-    /* buttons
-   */
+
     --color-btn                   : var(--color-gray-5);
     --color-btn-text              : var(--color-text);
     --color-btn-hover             : var(--color-gray-6);
@@ -208,34 +102,23 @@
     --color-btn-stroke-text       : var(--color-text);
     --color-btn-stroke-hover      : var(--color-text);
     --color-btn-stroke-hover-text : var(--color-white);
-    /* preloader
-   */
+
     --color-preloader-bg          : var(--color-gray-19);
     --color-loader                : var(--color-gray-10);
     --color-loader-light          : var(--color-gray-16);
-    /* others
-   */
+
     --color-body-bg               : var(--color-gray-1);
     --color-border                : rgba(0, 0, 0, .1);
     --border-radius               : 5px;
 }
 
-/* ------------------------------------------------------------------- 
- * ## spacing and typescale
- * ------------------------------------------------------------------- */
-:root {
 
-  /* spacing
-   * base font size: 24px 
-   * vertical space unit : 34px
-   */
+:root {
     --base-size       : 62.5%;
     --multiplier      : 1;
     --base-font-size  : calc(2.4rem * var(--multiplier));
     --space           : calc(3.4rem * var(--multiplier));
 
-  /* vertical spacing 
-   */
     --vspace-0_125    : calc(0.125 * var(--space));
     --vspace-0_25     : calc(0.25 * var(--space));
     --vspace-0_375    : calc(0.375 * var(--space));
@@ -265,27 +148,7 @@
     --vspace-9_5      : calc(9.5 * var(--space));
     --vspace-10       : calc(10 * var(--space));
 
-  /* type scale
-   * ratio 1          :2 | base: 24px
-   * -------------------------------------------------------
-   *
-   * --text-huge-3    = (178.32px)
-   * --text-huge-2    = (148.60px)
-   * --text-huge-1    = (123.83px)
-   * --text-display-3 = (103.20px)
-   * --text-display-2 = (86.00px)
-   * --text-display-1 = (71.66px)
-   * --text-xxxl      = (59.72px)
-   * --text-xxl       = (49.77px)
-   * --text-xl        = (41.47px)
-   * --text-lg        = (34.56px)
-   * --text-md        = (28.80px)
-   * --text-size      = (24.00px) BASE
-   * --text-sm        = (20.00px)
-   * --text-xs        = (16.67px)
-   *
-   * ---------------------------------------------------------
-   */
+
     --text-scale-ratio: 1.2;
     --text-size       : var(--base-font-size);
     --text-xs         : calc((var(--text-size) / var(--text-scale-ratio)) / var(--text-scale-ratio));
@@ -302,27 +165,21 @@
     --text-huge-2     : calc(var(--text-huge-1) * var(--text-scale-ratio));
     --text-huge-3     : calc(var(--text-huge-2) * var(--text-scale-ratio));
 
-  /* default button height
-   */
+
     --vspace-btn      : var(--vspace-1_75);
 }
 
-/* on mobile devices below 600px, change the value of '--multiplier' 
- * to adjust the values of base font size and vertical space unit.
- */
+
 @media screen and (max-width: 600px) {
     :root {
         --multiplier: .9412;
     }
 }
 
-/* ------------------------------------------------------------------- 
- * ## grid variables
- * ------------------------------------------------------------------- */
+
+
 :root {
 
-  /* widths for rows and containers
-   */
     --width-sixteen-cols: 1760px;
     --width-default     : 1400px;
     --width-wide        : 1600px;
@@ -333,21 +190,17 @@
     --width-full        : 100%;
     --width-grid-max    : var(--width-default);
 
-  /* gutter
-   */
+
     --gutter            : 2.9rem;
 }
 
-/* on large screen devices
- */
+
 @media screen and (max-width: 1000px) {
     :root {
         --gutter: 2.2rem;
     }
 }
 
-/* on small devices
- */
 @media screen and (max-width: 600px) {
     :root {
         --gutter: 1rem;
@@ -355,15 +208,7 @@
 }
 
 
-/* ====================================================================
- * # CSS RESET
- *
- *
- * --------------------------------------------------------------------
- * http://meyerweb.com/eric/tools/css/reset/ 
- * v2.0 | 20110126
- * License: none (public domain)
- * -------------------------------------------------------------------- */
+
 html,
 body,
 div,
@@ -453,7 +298,6 @@ video {
     vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article,
 aside,
 details,
@@ -495,27 +339,6 @@ table {
     border-spacing : 0;
 }
 
-
-/* ===================================================================
- * # GRID v5.0.0
- *
- *
- * -------------------------------------------------------------------
- * - Grid system based on the flex display property.
- *
- * - Grid breakpoints are based on MAXIMUM WIDTH media queries, 
- *   meaning they apply to that one breakpoint and ALL THOSE BELOW IT.
- *
- * - Grid columns without a specified width will automatically layout 
- *   as equal width columns.
- *
- * - On viewports 400px and below, all grid columns will stacked 
- *   vertically
- *
- * ------------------------------------------------------------------- */
-
-/* row 
- */
 .row {
     display  : flex;
     flex-flow: row wrap;
@@ -529,8 +352,7 @@ table {
     margin-right: calc(var(--gutter) * -1);
 }
 
-/* column
- */
+
 .column {
     flex   : 1;
     padding: 0 var(--gutter);
@@ -541,8 +363,7 @@ table {
     padding: 0;
 }
 
-/* row utility classes
- */
+
 .row.row-wrap {
     flex-wrap: wrap;
 }
@@ -588,9 +409,6 @@ table {
     justify-content: center;
 }
 
-/* ------------------------- -------------------------------------------
- * ## extra large devices (1201px and above)
- * -------------------------------------------------------------------- */
 .xl-1 {
     flex : none;
     width: 8.3333333333%;
@@ -651,9 +469,7 @@ table {
     width: 100%;
 }
 
-/* --------------------------------------------------------------------
- * ## large devices (1001px to 1200px)
- * -------------------------------------------------------------------- */
+
 @media screen and (max-width: 1200px) {
     .lg-1 {
         flex : none;
@@ -716,9 +532,7 @@ table {
     }
 }
 
-/* --------------------------------------------------------------------
- * ## medium devices (801px to 1000px)
- * -------------------------------------------------------------------- */
+
 @media screen and (max-width: 1000px) {
     .md-1 {
         flex : none;
@@ -781,9 +595,7 @@ table {
     }
 }
 
-/* --------------------------------------------------------------------
- * ## tablet devices (601px to 800px)  
- * -------------------------------------------------------------------- */
+
 @media screen and (max-width: 800px) {
     .tab-1 {
         flex : none;
@@ -846,9 +658,7 @@ table {
     }
 }
 
-/* --------------------------------------------------------------------
- * ## mobile devices (401px to 600px)  
- * -------------------------------------------------------------------- */
+
 @media screen and (max-width: 600px) {
     .row {
         width        : 100%;
@@ -922,12 +732,7 @@ table {
     }
 }
 
-/* --------------------------------------------------------------------
- * ## small mobile devices (up to 400px)
- * -------------------------------------------------------------------- */
 
-/* stack columns vertically
- */
 @media screen and (max-width: 400px) {
     .row .row {
         margin-left : 0;
@@ -943,9 +748,7 @@ table {
     }
 }
 
-/* --------------------------------------------------------------------
- * ## additional column stackpoints 
- * -------------------------------------------------------------------- */
+
 @media screen and (max-width: 900px) {
     .stack-on-900 {
         flex        : none;
@@ -974,11 +777,7 @@ table {
 }
 
 
-/* ===================================================================
- * # BASE SETUP
- *
- *
- * ------------------------------------------------------------------- */
+
 html {
     font-size : var(--base-size);
     box-sizing: border-box;
@@ -1019,8 +818,7 @@ pre {
     overflow: auto;
 }
 
-/* Remove margins and paddings for common elements 
- */
+
 div,
 dl,
 dt,
@@ -1044,8 +842,7 @@ td {
     padding: 0;
 }
 
-/* Remove default styles for input elements 
- */
+
 input[type=email],
 input[type=number],
 input[type=search],
@@ -1060,14 +857,7 @@ textarea {
 }
 
 
-/* ===================================================================
- * # UTILITY CLASSES
- *
- *
- * ------------------------------------------------------------------- */
 
-/* flex item alignment classes
- */
 .u-flexitem-center {
     margin    : auto;
     align-self: center;
@@ -1108,8 +898,7 @@ textarea {
     align-self: flex-end;
 }
 
-/* misc helper classes
- */
+
 .u-screen-reader-text {
     clip             : rect(1px, 1px, 1px, 1px);
     -webkit-clip-path: inset(50%);
@@ -1185,34 +974,7 @@ textarea {
 }
 
 
-/* ===================================================================
- * # TYPOGRAPHY 
- *
- *
- * ------------------------------------------------------------------- 
- * type scale - ratio 1:2 | base: 24px
- * -------------------------------------------------------------------
- *
- * --text-huge-3    = (178.32px)
- * --text-huge-2    = (148.60px)
- * --text-huge-1    = (123.83px)
- * --text-display-3 = (103.20px)
- * --text-display-2 = (86.00px)
- * --text-display-1 = (71.66px)
- * --text-xxxl      = (59.72px)
- * --text-xxl       = (49.77px)
- * --text-xl        = (41.47px)
- * --text-lg        = (34.56px)
- * --text-md        = (28.80px)
- * --text-size      = (24.00px) BASE
- * --text-sm        = (20.00px)
- * --text-xs        = (16.67px)
- *
- * -------------------------------------------------------------------- */
 
-/* --------------------------------------------------------------------
- * ## base type styles
- * -------------------------------------------------------------------- */
 body {
     font-family: var(--font-1);
     font-size  : var(--base-font-size);
@@ -1221,8 +983,7 @@ body {
     color      : var(--color-text);
 }
 
-/* links
- */
+
 a {
     color     : var(--color-link);
     transition: all 0.3s ease-in-out;
@@ -1239,8 +1000,7 @@ a:active {
     outline: 0;
 }
 
-/* headings
- */
+
 h1,
 h2,
 h3,
@@ -1256,6 +1016,11 @@ h6,
     font-family: var(--font-2);
     font-weight: 600;
     color      : var(--color-text-dark);
+}
+
+h1,.h1{
+    font-family: Mexicana;
+    font-weight: 10;
 }
 
 h1,
@@ -1332,9 +1097,7 @@ h6,
     letter-spacing: 0.2rem;
 }
 
-/* emphasis, italic,
- * strong, bold and small text
- */
+
 em,
 i,
 strong,
@@ -1360,8 +1123,7 @@ small {
     line-height: var(--vspace-0_5);
 }
 
-/* blockquotes
- */
+
 blockquote {
     margin     : 0 0 var(--vspace-1) 0;
     padding    : var(--vspace-1) var(--vspace-1_5);
@@ -1410,8 +1172,7 @@ blockquote cite a:visited {
     }
 }
 
-/* figures
- */
+
 figure img,
 p img {
     margin        : 0;
@@ -1435,8 +1196,7 @@ figcaption {
     margin-bottom: 0;
 }
 
-/* preformatted, code
- */
+
 var,
 kbd,
 samp,
@@ -1472,9 +1232,7 @@ pre>code {
     border     : none;
 }
 
-/* deleted text, abbreviation,
- * & mark text
- */
+
 del {
     text-decoration: line-through;
 }
@@ -1500,8 +1258,6 @@ mark {
     color     : var(--color-text);
 }
 
-/* horizontal rule
- */
 hr {
     border      : solid var(--color-border);
     border-width: 0.1rem 0 0;
@@ -1522,9 +1278,7 @@ hr.fancy::before {
     letter-spacing: 0.3em;
 }
 
-/* --------------------------------------------------------------------
- * ## additional typography & helper classes
- * -------------------------------------------------------------------- */
+
 .lead,
 .attention-getter {
     font-family: var(--font-1);
@@ -3093,7 +2847,7 @@ body.menu-is-open {
 .s-header__logo img {
     width         : var(--logo-width);
     vertical-align: top;
-    margin-top: 150px;
+    margin-top: 50%;
 }
 
 /* --------------------------------------------------------------------
@@ -3646,7 +3400,7 @@ body.menu-is-open {
     bottom             : 0;
     width              : 100%;
     height             : 100%;
-    background-image   : url(../images/intro-bg-3000.jpg);
+    background-color : black;
     background-repeat  : no-repeat;
     background-position: center;
     background-size    : cover;
@@ -3860,13 +3614,24 @@ body.menu-is-open {
     transition-delay: 1.5s;
 }
 
+.red{
+    color: #ce1126;
+}
+
+.green{
+    color: #006847;
+}
+.white{
+    color: #ffffff;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * intro
  * ------------------------------------------------------------------- */
 @media screen and (max-width: 1600px) {
     .s-intro__title {
-        font-size: clamp(4rem, 22vw, 26rem);
+        font-size: clamp(4rem, 6vw, 26rem);
     }
 }
 

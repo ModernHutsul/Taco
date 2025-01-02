@@ -5,7 +5,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4956e67-4bde-48c8-90a7-2fe945ed5438" name="Changes" comment="Update 12345">
+      <change afterPath="$PROJECT_DIR$/css/menu.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-chrome-192x192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android-chrome-512x512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/test.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/generic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about/about-img-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about/about-img-01@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about/about-img-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about/about-img-02@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about/about-img-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about/about-img-03@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/avatars/user-08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-01@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-02@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-03@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-04@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-05@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-06@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-07@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/gallery-08@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/gallery/large/l-gallery-08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home-about-img-small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home-about-img-small@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home-about-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/home-about-img@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/intro-bg-3000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu/Rectangle 25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu/icecream.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu/icecream@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu/pasta.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu/pasta@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu/steak.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu/steak@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu/taco-svgrepo-com 1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu/toast.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu/toast@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu/yogurt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu/yogurt@2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pageheader/pageheader-about-bg-3000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pageheader/pageheader-generic-bg-3000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pageheader/pageheader-menu-bg-3000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/pageheader/pageheader-reservations-bg-3000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sample-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/sidebar/HomeSideBar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/sidebar/HomeSideBar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wheel-1000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wheel-2000.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/wheel-500.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu_testing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reservations.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +98,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,13 +121,16 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2mcIaFJN1cvALadvs5u1umbZmBj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/Maillard_1_0_0&quot;,
@@ -107,7 +192,35 @@
       <workItem from="1731002171521" duration="10518000" />
       <workItem from="1731060220620" duration="1471000" />
       <workItem from="1731176307368" duration="8802000" />
-      <workItem from="1731250091753" duration="1752000" />
+      <workItem from="1731250091753" duration="3835000" />
+      <workItem from="1731363493045" duration="233000" />
+      <workItem from="1731519197653" duration="9980000" />
+      <workItem from="1731692753947" duration="728000" />
+      <workItem from="1731720241673" duration="4401000" />
+      <workItem from="1731785269237" duration="1070000" />
+      <workItem from="1731862176695" duration="13004000" />
+      <workItem from="1731886558055" duration="5279000" />
+      <workItem from="1732047705728" duration="855000" />
+      <workItem from="1732072920593" duration="1217000" />
+      <workItem from="1732162740389" duration="6092000" />
+      <workItem from="1732225603271" duration="5021000" />
+      <workItem from="1732467264632" duration="9764000" />
+      <workItem from="1732745466583" duration="3772000" />
+      <workItem from="1732848118534" duration="609000" />
+      <workItem from="1732906463926" duration="3602000" />
+      <workItem from="1732974175283" duration="7788000" />
+      <workItem from="1733116443897" duration="5309000" />
+      <workItem from="1733162554907" duration="2441000" />
+      <workItem from="1733424058874" duration="4396000" />
+      <workItem from="1733548455632" duration="4508000" />
+      <workItem from="1734012591300" duration="5469000" />
+      <workItem from="1734539901583" duration="11933000" />
+      <workItem from="1734971023642" duration="4587000" />
+      <workItem from="1735109618641" duration="6813000" />
+      <workItem from="1735241036688" duration="2069000" />
+      <workItem from="1735254202485" duration="1852000" />
+      <workItem from="1735660367342" duration="5868000" />
+      <workItem from="1735820001285" duration="360000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <option name="closed" value="true" />
@@ -157,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731251237337</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update 12345">
+      <option name="closed" value="true" />
+      <created>1731251889038</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731251889038</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

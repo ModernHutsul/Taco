@@ -1,9 +1,4 @@
-<svg width="60" height="50" viewBox="0 0 60 50" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="60" height="50" fill="url(#pattern0_82_263)"/>
-<defs>
-<pattern id="pattern0_82_263" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_82_263" transform="scale(0.0166667 0.02)"/>
-</pattern>
-<image id="image0_82_263" width="60" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAyCAYAAAF38YiUAAAACXBIWXMAAAsSAAALEgHS3X78AAAEfUlEQVRoge1a3VVbMQxWOB0g2YA86TXZADZIN4AJChO0TAAbABOEDQIT5L7qCToB2YAep59zFEv2dZIbftp8T8FXtixL1p+hNvT0dxF5w89TIpoxc+8o+bjAn7M43ktmalwR0c9essIa1lhEhEGz1tbQ/EdENNdsjtTGfmB8vBItfAhU3s6zchuRNhKnSBnZYU8nUQ+RwzdnwpSIJlDcHTOfe3um5JwiwZCIng0lUUNEx0TUD7+ZeRzPca6E9SYGBCX08fvUyJxuLy6YGzfW827Iqkpt9ZyZ77TaIo07WU1cxNPFga1NNjInHMLEmzgxxVFuouJ+QUQDM1NZvb5IrpHoBVeqEpGZmvjgTYy7SvV+xMzBWu5AMzGzMgtQxraLKJ62lhGEj+Zj2+QafELbboOI3MI5fGfmhSaH+leARrdnLCLB1F/Nh7+I7u5ExyvKeGQz4EFEzojo1lsseL/cnSsxNk5bQ0Relbuk6G8Ds8SWw30Nkk7NIhmYnWSOc82HFXDDzJcO3VINekDfxuBprvVHOA5zzBVYMPPAU0M89qgnzTQeZ3rM22KIddbSDHPUtIEvqsXGxlVAei+v2yy7E8bMvOZIRWRhiFrwYT4zxzgbGr48jLXVQESOcbefmPmXniIiqaHdB+eTLrsxY8fRLJ2F+m6uonedcjp2gXB3nXzre8zaUH2dHE/W6CMF87GZmEGVxFhUMw1Of+xkkXOqRJFxiFTOMZ6r+ubM018NspPS+hEYIlvXYbM1qHibcyVGKFxjiskjJ1aPAlNYdmMWy8AwhuXq+LtAXL4tZBh9pN1jlB+tSAs/Y7kx1dkg+gxAO0vGh8z8Ev9IuxrGcjG+SciLm08t/hkqXMItZYPlohzKpbI1yFX3y7zM6BhOoNmRacCZKvx1vH6itPTKFfM74oWZhzDal5htmvu1B8a7B4kusU3OFWLrfTKWXp1WbMP4t5PsGaI2fLpk78D4SzI2GeYB7wnjQvcFhOJrJy0LgeuUmd2sKZP6pVjGITPqYNuyvBrI1M4K9MsmBZzuVVqJOQfk4dgZc7EXDaNfNdu0N6HQQOsLr03owQv4Hjr1WiIyQXr8WhC2QfY5LiT/y6IBa+XW2QqdCBzMFinatGCCV+i8j/FUMVLFZs6V951SfCfs0iKvMduVQwL9rfPosWqtbtkxXWJvJl1ptiELHMRujIg8g9574QmlxhsqwgYbHydlR2eoFrjSbC9htqG5OgH9vNKLjuCt32DuA5j7g6HcAUUzQONuWtAkOWY7xbNEF7jDIS4qzf3Re4XScAUuJAnu4kgOZi30u+AFvBrwmrZYTTaZSTsubUkC6eQA7dkLQ7FfxPen6MGr90tJ+yHbjXPMdpekois8QPgac3+Mj6krpwUnkcbDRnnbUYV3fk9MVHKivXtqxpf65Th3h/vO83OnvZ+ukcbh4HB107IosIevJnAOH/dvEB+EvZeHgFf2rQE91a7idxb/nYYPAv/rOAj8RZEtFlJs4qUHyF1LSXsOJgFwYBL9SjT4L+0DDIjoD7EFXf/MORbBAAAAAElFTkSuQmCC"/>
-</defs>
+<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg width="800px" height="800px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M8 0L0 6V8H1V15H4V10H7V15H15V8H16V6L14 4.5V1H11V2.25L8 0ZM9 10H12V13H9V10Z" fill="#000000"/>
 </svg>

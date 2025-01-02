@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Адаптивний Блок</title>
+    <style>
+        .gradient-box {
+            width: 300px;
+            height: 300px;
+            background-image: linear-gradient(red, yellow);
+        }
+
+        @media (max-width: 600px) {
+            .gradient-box {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="gradient-box"></div>
+</body>
+</html>
